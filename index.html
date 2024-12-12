@@ -1,24 +1,44 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Michelle's portfolio</title>
- </head>
- <body>
-    
- <h1>Michelle's portfolio</h1>
- <h2>I am a developer</h2>
- <hr> 
- <a href="./public/movie-ranking.html"><h3>Movie ranking project</h3></a>
- <img src="./assets/images/movie-ranking.png" alt="ranking screenshot" height="200">
+    <title>Dutch Flag</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 3/2;
+            border: 1px solid black;
+            margin: 20px
+        }
+        .stripe{
+            flex:1;
+        }
+        .red{
+            background-color:#ae1c28;
+        }
+        .white{
 
+            background-color: white;
+        }
 
- <a href="./public/birthday-invite.html"><h3>birthday invite project</h3></a>
- <img src="./assets/images/birthday-invite.png" alt="bday screenshot" height="200">
+        .blue{
+            background-color: #21468b;
+        }
+    </style>
+</head>
 
- <hr>
- <a href="./public/about.html">About me</a> <a href="./public/">contact me</a>
+<body>
+    <div class="container">
+        <div class="stripe red">
+        </div>
+        <div class="stripe white">
+        </div>
+        <div class="stripe blue">
+        </div>
+    </div>
 
 </body>
 </html>
